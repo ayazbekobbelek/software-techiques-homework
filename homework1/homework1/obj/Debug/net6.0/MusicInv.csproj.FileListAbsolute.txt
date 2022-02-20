@@ -1,0 +1,15 @@
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\bin\Debug\net6.0\MusicInv.exe
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\bin\Debug\net6.0\MusicInv.deps.json
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\bin\Debug\net6.0\MusicInv.runtimeconfig.json
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\bin\Debug\net6.0\MusicInv.dll
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\bin\Debug\net6.0\MusicInv.pdb
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.csproj.AssemblyReference.cache
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.AssemblyInfoInputs.cache
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.AssemblyInfo.cs
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.csproj.CoreCompileInputs.cache
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.dll
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\refint\MusicInv.dll
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.pdb
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\MusicInv.genruntimeconfig.cache
+C:\Users\ayazbeko\Desktop\Software Techniques Homeworks\homework1\homework1\obj\Debug\net6.0\ref\MusicInv.dll

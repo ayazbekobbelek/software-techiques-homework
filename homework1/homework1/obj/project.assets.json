@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayazbeko\\Desktop\\Software Techniques Homeworks\\homework1\\homework1\\homework1.csproj",
-      "projectName": "homework1",
-      "projectPath": "C:\\Users\\ayazbeko\\Desktop\\Software Techniques Homeworks\\homework1\\homework1\\homework1.csproj",
+      "projectUniqueName": "C:\\Users\\ayazbeko\\Desktop\\Software Techniques Homeworks\\homework1\\homework1\\MusicInv.csproj",
+      "projectName": "MusicInv",
+      "projectPath": "C:\\Users\\ayazbeko\\Desktop\\Software Techniques Homeworks\\homework1\\homework1\\MusicInv.csproj",
       "packagesPath": "C:\\Users\\ayazbeko\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ayazbeko\\Desktop\\Software Techniques Homeworks\\homework1\\homework1\\obj\\",
       "projectStyle": "PackageReference",

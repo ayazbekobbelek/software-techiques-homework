@@ -21,6 +21,7 @@ namespace exercise2
             sh.addShape(new Editbox(24, 56, 32, 78));
 
             sh.listAll();
+            Console.ReadKey();
 
 
 

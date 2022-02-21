@@ -1,30 +1,39 @@
-﻿class Editbox : Controls.Textbox
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+namespace exercise2
 {
-    private int x;
-    private int y;
-    private int width;
-    private int height; 
-    public Editbox(int x, int y, int w, int h) : base(x, y, w, h)
+    public class Editbox : Controls.Textbox, IShape
     {
-        this.x = x;    
-        this.y = y;
-        this.width = w;
-        this.height = h;
+         int x;
+         int y;
+         int width;
+         int height;
+        public Editbox(int x, int y, int w, int h) : base(x, y, w, h)
+        {
+            this.x = x;
+            this.y = y;
+            this.width = w;
+            this.height = h;
+        }
+        public double getArea()
+        {
+            return width * height;
+        }
+        public string getShapeName()
+        {
+            return "Textbox";
+        }
+        public int getX()
+        {
+            return x;
+        }
+        public int getY()
+        {
+            return y;
+        }
+
+        
     }
-    public double area()
-    {
-        return width * height;
-    }
-    public string getShape()
-    {
-        return "Textbox";
-    }
-    public int getX()
-    {
-        return x;
-    }
-    public int getY()
-    {
-        return y;
-    }
+
 }

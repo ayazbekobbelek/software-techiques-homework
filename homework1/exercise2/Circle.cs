@@ -1,21 +1,27 @@
-﻿class Circle : Shape
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+namespace exercise2
 {
-    private int radius;
-    private const double PI = 3.14;
-    public Circle(int x, int y, int radius)
+    public class Circle : ShapeBase
     {
-        this.x = x; 
-        this.y = y; 
-        this.radius = radius;
+         double radius;
+         const double PI = 3.14;
+        public Circle(int x, int y, double radius) :
+            base(x, y)
+        {
+            this.radius = radius;
+        }
+
+        public override double getArea()
+        {
+            return PI * this.radius * this.radius;
+        }
+
+        public override string getShapeName()
+        {
+            return "Circle";
+        }
     }
 
-    public override double area()
-    {
-        return PI * radius * radius;
-    }
-
-    public override string getShape()
-    {
-        return "Circle";
-    }
 }

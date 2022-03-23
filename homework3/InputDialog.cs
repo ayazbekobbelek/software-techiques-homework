@@ -16,12 +16,15 @@ namespace homework3
         {
             InitializeComponent();
         }
+
+        private void InputDialog_Load(object sender, EventArgs e)
+        {
+
+        }
         public string InputText
         {
             get { return tInputText.Text; }
             set { tInputText.Text = value; }
         }
-       
-
     }
 }

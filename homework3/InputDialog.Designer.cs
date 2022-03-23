@@ -34,17 +34,20 @@
             this.bCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // tiInputText
+            // tInputText
             // 
-            this.tInputText.Location = new System.Drawing.Point(337, 132);
-            this.tInputText.Name = "tiInputText";
-            this.tInputText.Size = new System.Drawing.Size(100, 23);
+            this.tInputText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tInputText.Location = new System.Drawing.Point(45, 95);
+            this.tInputText.Name = "tInputText";
+            this.tInputText.Size = new System.Drawing.Size(249, 23);
             this.tInputText.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(355, 114);
+            this.label1.Location = new System.Drawing.Point(45, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 15);
             this.label1.TabIndex = 1;
@@ -52,8 +55,9 @@
             // 
             // bOK
             // 
+            this.bOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.bOK.Location = new System.Drawing.Point(309, 161);
+            this.bOK.Location = new System.Drawing.Point(43, 136);
             this.bOK.Name = "bOK";
             this.bOK.Size = new System.Drawing.Size(75, 23);
             this.bOK.TabIndex = 2;
@@ -62,8 +66,9 @@
             // 
             // bCancel
             // 
+            this.bCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.bCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bCancel.Location = new System.Drawing.Point(400, 161);
+            this.bCancel.Location = new System.Drawing.Point(219, 136);
             this.bCancel.Name = "bCancel";
             this.bCancel.Size = new System.Drawing.Size(75, 23);
             this.bCancel.TabIndex = 3;
@@ -76,13 +81,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.bCancel;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(357, 314);
             this.Controls.Add(this.bCancel);
             this.Controls.Add(this.bOK);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tInputText);
             this.Name = "InputDialog";
             this.Text = "InputDialog";
+            this.Load += new System.EventHandler(this.InputDialog_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
